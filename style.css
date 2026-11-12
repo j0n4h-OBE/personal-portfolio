@@ -3,13 +3,15 @@
   --text: #e2e8f0;
   --accent: #4f46e5;
   --panel: #111827;
+  --light: #f8fafc;
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  background: var(--light);
+  color: #1f2937;
+  line-height: 1.6;
 }
 
 .navbar {
@@ -32,6 +34,8 @@ body {
 
 .hero {
   padding: 4rem 0;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
 }
 
 .container {
@@ -47,4 +51,28 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.alt-bg {
+  background: #eef2ff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+th, td {
+  border: 1px solid #dbe3f0;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+ul {
+  padding-left: 1.5rem;
 }
